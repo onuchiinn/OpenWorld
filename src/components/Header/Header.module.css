@@ -1,0 +1,19 @@
+.header {
+  grid-area: h;
+  background-color: #3b5997;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 32px;
+  color: #fff;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-left: 40px;
+  letter-spacing: 2.5px;
+}
+
+/* .header img {
+    width: 100px;
+  } */

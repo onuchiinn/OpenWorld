@@ -1,0 +1,23 @@
+
+.nav {
+    grid-area: n;
+    background-color: #e0ebf2;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .item a {
+      color: #3b5997;
+      text-decoration: none;
+  }
+
+.item a.activeLink {
+    color: gold;
+}
+
+  .item + .item {
+      margin-top: 5px;
+  }
