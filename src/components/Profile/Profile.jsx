@@ -1,16 +1,15 @@
 import React from 'react';
 import s from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
-const Profile = () => {
-  return <div>
-    <div>
-      <img src="https://st2.depositphotos.com/1037168/5190/i/450/depositphotos_51904861-stock-photo-beautiful-above-and-underwater-landscape.jpg"></img>
-    </div>
-    <div>
-      ava + description
-    </div>
-    <MyPosts />
+
+const Profile = (props) => {
+  return (
+  <div>
+    <ProfileInfo />
+    <MyPosts posts={props.state.posts} />
   </div>
+  )
 }
 export default Profile;
