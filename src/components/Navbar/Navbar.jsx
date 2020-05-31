@@ -20,6 +20,14 @@ const Navbar = () => {
         <div className={s.item}>
             <NavLink to="/settings" activeClassName={s.activeLink}>Settings</NavLink>
         </div>
+        <div className={s.item + ' ' + s.friends}>
+            <NavLink to="/friends" activeClassName={s.activeLink}>Friends</NavLink>
+            <ul className={s.friendsBlock}>
+                <li>Вася</li>
+                <li>Игорь</li>
+                <li>Max</li>
+            </ul>
+        </div>
     </nav>
 }
 export default Navbar;

@@ -5,13 +5,31 @@
 
 .dialogsItems {
     padding: 10px;
-}
-
-.active {
-    color: gold;
+    align-items: start;
 }
 
 .messages {
     padding: 10px;
-    
+}
+
+.photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.dialog {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inputText {
+    width: 100px;
+    height: 20px;
+    margin: 0 10px;
 }

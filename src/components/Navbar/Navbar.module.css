@@ -21,3 +21,29 @@
   .item + .item {
       margin-top: 5px;
   }
+
+.friends {
+    padding-top: 100px;
+    font-size: 32px;
+}
+
+.friendsBlock {
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+.friendsBlock li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.friendsBlock li+li {
+    margin-left: 8px;
+}
